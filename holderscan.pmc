@@ -1,0 +1,30 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|BasicDemo
+Context=None|
+Groups=New Group:1,Click Holder:6,Click Timeframe:8,Click Min Holder:10,Click Max Holder:12,Click Network:14,Download HTML to \james\:16
+01|Run|"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" "https://holderscan.com/"|1|0|Run|||||1|
+02|WinMaximize||1|333|WinMaximize||ahk_class Chrome_WidgetWin_1|||3|
+03|[Pause]|NoRandom|1|4000|Sleep|||||5|
+04|Move|200, 200, 0|1|10|Click|||||6|
+05|Mouse Wheel Down|WheelDown, 11|1|100|Click|||||8|
+06|Left Move & Click|1100, 250 Left, 1|1|10|Click|||||10|
+07|Left Move & Click|1100, 330 Left, 1|1|10|Click|||||12|
+08|Left Move & Click|1250, 250 Left, 1|1|10|Click|||||14|
+09|Left Move & Click|1250, 370 Left, 1|1|10|Click|||||16|
+010|Left Move & Click|1400, 250 Left, 1|1|10|Click|||||18|
+011|Left Move & Click|1400, 330 Left, 1|1|10|Click|||||20|
+012|Left Move & Click|1550, 250 Left, 1|1|10|Click|||||22|
+013|Left Move & Click|1550, 330 Left, 1|1|10|Click|||||24|
+014|Left Move & Click|1650, 250 Left, 1|1|10|Click|||||26|
+015|Left Move & Click|1650, 370 Left, 1|1|10|Click|||||28|
+16|Right Move & Click|100, 200 Right, 1|1|10|Click|||||30|
+17|[Pause]|NoRandom|1|100|Sleep|||||33|
+18|Left Move & Click|Rel 100, 110 Left, 1|1|10|Click|||||34|
+19|[Pause]|NoRandom|1|500|Sleep|||||36|
+20|Left Move & Click|550, 70 Left, 1|1|10|Click|||||37|
+21|[Text]|C:\Users\s1207\Desktop\james {Enter}|1|0|Send|||||39|
+22|[Pause]|NoRandom|1|500|Sleep|||||40|
+23|Left Move & Click|770, 550 Left, 1|1|10|Click|||||41|
+24|[Pause]|NoRandom|1|500|Sleep|||||43|
+25|Left Move & Click|330, 140 Left, 1|1|10|Click|||||44|
+
